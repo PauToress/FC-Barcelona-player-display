@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMATION · FC BARCELONA · 2025/26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Oswald:wght@300;500;700&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="lang-bi" data-page="formation">
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar" role="banner">
+        <div class="topbar__inner">
+            <a class="crest" href="index.html" aria-label="FC Barcelona">
+                <svg viewBox="0 0 64 80" class="crest__svg" aria-hidden="true">
+                    <path d="M2 6 L62 6 L62 56 C62 70 48 78 32 78 C16 78 2 70 2 56 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M2 6 L62 6 L62 56 C62 70 48 78 32 78 C16 78 2 70 2 56 Z" fill="url(#crestG)" opacity=".25"/>
+                    <line x1="22" y1="6" x2="22" y2="78" stroke="currentColor" stroke-width="1"/>
+                    <line x1="42" y1="6" x2="42" y2="78" stroke="currentColor" stroke-width="1"/>
+                    <line x1="2" y1="20" x2="62" y2="20" stroke="currentColor" stroke-width="1"/>
+                    <text x="32" y="40" text-anchor="middle" font-family="Anton" font-size="12" fill="currentColor">FCB</text>
+                    <defs>
+                        <linearGradient id="crestG" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#A50044"/>
+                            <stop offset="100%" stop-color="#0A2540"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <div class="crest__txt">
+                    <span class="crest__top">FC BARCELONA</span>
+                    <span class="crest__bot">EST. 1899</span>
+                </div>
+            </a>
+            <nav class="nav" aria-label="主导航">
+                <a href="index.html"     data-i18n="nav_home">HOME</a>
+                <a href="squad.html"     data-i18n="nav_squad">SQUAD</a>
+                <a href="formation.html" data-i18n="nav_formation">FORMATION</a>
+                <a href="bench.html"     data-i18n="nav_bench">BENCH</a>
+                <a href="fixtures.html"  data-i18n="nav_fixtures">FIXTURES</a>
+                <a href="honors.html"    data-i18n="nav_honors">HONORS</a>
+            </nav>
+            <div class="topbar__right">
+                <div class="lang-toggle" role="group" aria-label="语言">
+                    <button class="lang-toggle__btn is-active" data-lang="bi" type="button" aria-pressed="true">双语</button>
+                    <button class="lang-toggle__btn" data-lang="en" type="button" aria-pressed="false">EN</button>
+                    <button class="lang-toggle__btn" data-lang="cn" type="button" aria-pressed="false">中文</button>
+                </div>
+                <div class="topbar__meta">
+                    <span class="dot"></span>
+                    <span data-i18n="season">SEASON 2025 / 26</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" aria-labelledby="page-title">
+            <span class="page-hero__num" data-i18n="sec_formation_num">02 / FORMATION</span>
+            <h1 id="page-title" class="page-hero__title" data-i18n="sec_formation_title">4-3-3 STARTING XI</h1>
+            <p class="page-hero__sub" data-i18n="sec_formation_sub">首发十一人在球场上的位置排布 · 悬停高亮单条线 · 点击球员查看完整资料</p>
+        </section>
+
+        <section id="formation" class="board" aria-labelledby="board-title">
+            <header class="section-head">
+                <h2 id="board-title" class="section-head__title section-head__title--invisible">STARTING LINEUP</h2>
+            </header>
+
+            <div class="pitch" id="lineup">
+                <svg class="pitch__lines" viewBox="0 0 1200 1700" preserveAspectRatio="none" aria-hidden="true">
+                    <rect x="20" y="20" width="1160" height="1660" fill="none" stroke="rgba(245,239,230,.18)" stroke-width="2"/>
+                    <line x1="20" y1="850" x2="1180" y2="850" stroke="rgba(245,239,230,.18)" stroke-width="2"/>
+                    <circle cx="600" cy="850" r="100" fill="none" stroke="rgba(245,239,230,.18)" stroke-width="2"/>
+                    <rect x="20" y="500" width="160" height="700" fill="none" stroke="rgba(245,239,230,.18)" stroke-width="2"/>
+                    <rect x="1020" y="500" width="160" height="700" fill="none" stroke="rgba(245,239,230,.18)" stroke-width="2"/>
+                    <circle cx="600" cy="850" r="6" fill="rgba(245,239,230,.4)"/>
+                    <line x1="20" y1="410" x2="1180" y2="410" stroke="rgba(245,239,230,.12)" stroke-width="1" stroke-dasharray="6 6"/>
+                    <line x1="20" y1="1290" x2="1180" y2="1290" stroke="rgba(245,239,230,.12)" stroke-width="1" stroke-dasharray="6 6"/>
+                </svg>
+
+                <div class="pitch__row pitch__row--fw"  data-row="FW" aria-label="前锋线"></div>
+                <div class="pitch__row pitch__row--mid" data-row="MF" aria-label="中场线"></div>
+                <div class="pitch__row pitch__row--def" data-row="DF" aria-label="后卫线"></div>
+                <div class="pitch__row pitch__row--gk"  data-row="GK" aria-label="门将"></div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-name">
+        <div class="modal__backdrop" data-close></div>
+        <article class="modal__panel" role="document">
+            <button class="modal__close" data-close aria-label="关闭 / Close">
+                <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg>
+            </button>
+            <header class="modal__hero">
+                <div class="modal__portrait" id="modal-portrait" aria-hidden="true"></div>
+                <div class="modal__hero-info">
+                    <div class="modal__num-wrap">
+                        <span class="modal__num" id="modal-num">1</span>
+                        <span class="modal__pos" id="modal-pos"><span>GK</span></span>
+                    </div>
+                    <h2 class="modal__name" id="modal-name">PLAYER NAME</h2>
+                    <p class="modal__sub" id="modal-sub">—</p>
+                    <div class="modal__quick" id="modal-quick"></div>
+                </div>
+            </header>
+            <div class="modal__stats" id="modal-stats" aria-label="关键数据 / Key stats"></div>
+            <nav class="tabs" role="tablist" aria-label="详情分类">
+                <button class="tab is-active" role="tab" data-tab="profile" aria-selected="true">个人资料</button>
+                <button class="tab" role="tab" data-tab="honors" aria-selected="false">荣誉</button>
+                <button class="tab" role="tab" data-tab="transfers" aria-selected="false">转会</button>
+                <button class="tab" role="tab" data-tab="value" aria-selected="false">德转身价</button>
+            </nav>
+            <div class="panels">
+                <section class="panel is-active" role="tabpanel" data-panel="profile">
+                    <dl class="deflist" id="panel-profile"></dl>
+                </section>
+                <section class="panel" role="tabpanel" data-panel="honors" hidden>
+                    <div class="honor-groups" id="panel-honors"></div>
+                </section>
+                <section class="panel" role="tabpanel" data-panel="transfers" hidden>
+                    <ol class="transfers" id="panel-transfers"></ol>
+                </section>
+                <section class="panel" role="tabpanel" data-panel="value" hidden>
+                    <div class="value">
+                        <div class="value__head">
+                            <div><span class="value__label" id="value-label-now">最新身价</span><strong class="value__now" id="value-now">—</strong></div>
+                            <div><span class="value__label" id="value-label-peak">历史峰值</span><strong class="value__peak" id="value-peak">—</strong></div>
+                            <div><span class="value__label" id="value-label-yoy">年度变化</span><strong class="value__delta" id="value-delta">—</strong></div>
+                        </div>
+                        <div class="value__chart" id="value-chart" aria-label="身价走势折线图"></div>
+                        <div class="value__legend" id="value-legend">单位：百万欧元（数据来源：Transfermarkt 德转）</div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer__inner">
+            <span data-i18n="footer_copy">© FC BARCELONA · FIRST XI DOSSIER</span>
+            <span data-i18n="footer_design">DESIGNED IN BLAUGRANA</span>
+            <span data-i18n="footer_fans">FOR FANS, BY FANS</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
